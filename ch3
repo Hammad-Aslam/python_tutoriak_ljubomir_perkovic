@@ -1,0 +1,259 @@
+# this file include the ch3 solution of book ljubmoir perkovic
+
+
+# s1 = '-'
+# s2 = '+'
+#
+# print(s1 + s2)
+# print(s1 + s2 + s1)
+# print(s2 + (s1*2))
+# print((s2+(s1*2))*2)
+# print((s2+(s1*2))*11)
+# print((s2+s1+s2+s2+s2)*5)
+#
+
+# s = 'abcdefghijklmnopqrstuvwxyz'
+# print(s[0])
+# print(s[2])
+# print(s[-1])
+# print(s[-10])
+# print(s[-2])
+
+#a = s[0] and s[1] == 'g'
+# b = s[6] == 'g'
+# c = s[0] and s[1] == 'g' and 'a'
+# print(a)
+# print(b)
+# print(c)
+
+#
+# flowers = ['rose', 'bougainvillea', 'yucca', 'marigold', 'daylilly', 'lilly', 'lilly of the valley']
+# a='potato' not in flowers
+# print(a)
+
+# s = 'top'
+# print(s[::-1])
+
+
+# a = (0 == 1) == (1 == 2)
+# print(a)
+
+# a = 2 + (3 == 4) + 5 == 7
+# print(a)
+
+# a = (1 < -1) == (3 > 4)
+# print(a)
+
+# fahrenheit = int(input("Enter a temprature in fahrenheit: "))
+# celsius = 5/9 * (fahrenheit-32)
+# print(celsius)
+
+# members = ['joe', 'sue', 'hani', 'sophie']
+# login = str(input("Login: "))
+# if login in members:
+#     print("You are in!")
+# else:
+#     print('known user')
+#
+# print('Done')
+
+
+# def perimeter(r):
+#     a = 3.142 * r ** 2
+#     return a
+# print(perimeter(1))
+
+#
+# def average(a, b):
+#     c = (a+b)/2
+#     return c
+# print(average(1,3))
+
+
+# def noVowel(i):
+#     str = ['a', 'e', 'i', 'o', 'u']
+#     if str is not i:
+#         print("True")
+#     else:
+#         print("False")
+#
+#
+# print(noVowel('t'))
+
+# Lst = eval(input("Enter  word list: "))
+# for i in Lst:
+#     if len(i) == 4:
+#         print(i)
+
+# def allEven():
+#     a = eval(input("Enter a Number: "))
+#     for i in a:
+#         if i%2 == 0:
+#             print("True")
+#         else:
+#             print("False")
+#
+# print(allEven())
+
+
+# def negatives():
+#     a = eval(input("Enter a Negatives: "))
+#     for i in a:
+#         if i < 0:
+#             print(i)
+#
+# print(negatives())
+
+
+
+
+# lst = ['Hammad', 'dabeer', 'burhan', 'faris']
+# a = lst[0], lst[-1] = lst[-1], lst[0]
+# print(lst)
+
+# def swapFL():
+#     a = eval(input("Enter a list: "))
+#     a[0], a[-1] = a[-1], a[0]
+#     print(a)
+# print(swapFL())
+
+
+
+
+
+# a = eval(input("Enter a list of words: "))
+# for i in a:
+#     b =  ['cia', 'isi', 'mi6']
+#     if i in b:
+#         print(i)
+#
+# def student():
+#     a = eval(input("Enter list: "))
+#     for i in a:
+#         for j in i:
+#             b = []
+# print(student())
+
+
+# def n():
+#     a = eval(input("Enter a number: "))
+#     for i in range(5):
+#         print(i * a)
+#
+# print(n())
+
+
+# def n():
+#     a = eval(input("enter number: "))
+#     for i in range(3):
+#         a = i ** 2
+#         print(a)
+#
+# print(n())
+# def d():
+#     n = int(input("Enter an integer:"))
+#     print("The divisors of the number are:")
+#     for i in range(1, n + 1):
+#         if (n % i == 0):
+#             print(i)
+#
+# d()
+
+
+
+# def maxnum():
+#     a = eval(input("enter a first number"))
+#     b = eval(input("enter a second number"))
+#     c = eval(input("enter a third number"))
+#     d = eval(input("enter a fourth number"))
+#     if (a+b+c)/3 == d:
+#         print("Equal")
+#
+# maxnum()
+
+# def dart():
+#     x = eval(input("Enter x value: "))
+#     y = eval(input("Enter y value: "))
+#     if (x, y) in (-10, 10):
+#         print("It is in")
+# dart()
+
+# def reverse_string(x):
+#     a = x[::-1]
+#     print(a)
+#
+# reverse_string('abc')
+
+# def pay(wage, number_of_hour):
+#     total = wage * number_of_hour
+#     print(total)
+#     if number_of_hour > 40:
+#         new_total = (number_of_hour * 1.5) + wage
+#         print(new_total)
+#
+#
+# pay(10,46)
+
+# def prob(x):
+#     a =  2 ** -x
+#     print(a)
+# prob(1)
+# prob(2)
+
+# def rev_int(number):
+#     reverse = 0
+#     while (number > 0):
+#         reverse = reverse*10 + (number%10)
+#         number = number//10
+#         print(reverse)
+#
+#
+# rev_int(12345)
+# rev_int(4543252435425)
+# import math
+# def slope(x1, y1, x2, y2):
+#     d = (x2-x1) ** 2 + (y2-y1) ** 2
+#     v = math.sqrt(d)
+#     s = (y2-y1) / (x2-x1)
+#     if x1 and x2 == 0:
+#         print("line is vertical,so the slope is infinite" , "distance is " , v)
+#     else:
+#         print("slope is infine " , "distance is" , v)
+#
+# slope(0,0,1,1)
+
+# def abbrev(day):
+#     a =  day[0:2]
+#     print(a)
+# abbrev('Tuesday')
+
+# def collision(x1,y1,r1,x2,y2,r2):
+#     if (x2-x1)**2 + (y2-y1)**2 <=  (r2+r1)**2:
+#         print(True)
+#     else:
+#         print(False)
+# collision(0,0,1.4,2,2,1.4)
+
+# def partition(lst):
+#     lst1 = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M']
+#     for i in lst:
+#         for j in lst1:
+#             if i[0] == j[::1]:
+#                 print(i)
+#
+#
+# partition(['Ela', 'Eve', 'Sam', 'Owen', 'Gavin'])
+
+
+# def lastF(first_name, last_name):
+#     print(f'{first_name + last_name[0]}')
+#
+# lastF('Hammad.', 'Ahmed')
+
+# def avg():
+#
+#     lst =  [[95, 92, 86, 87], [45, 67]]
+#     for i in lst:
+#         a = sum(i) / len(i)
+#         print(a)
+# avg()
